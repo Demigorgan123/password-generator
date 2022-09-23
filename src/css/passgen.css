@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(to top, #209cff 100%, #68e0cf 200%);
+    color: white;
+}
+.container{
+    background-color: #0a0e31;
+    padding: 10px;
+    border-radius: 7px;
+    height: 410px;
+    width: 270px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35), 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+.passwd{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 12px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.passlen{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    height: 40px;
+    align-items: center;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 0 12px;
+    font-size: 13px;
+}
+.passlen input{
+    width: 35px;
+}
+.upper,.lower,.number,.symbol{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 7px;
+    margin: 5px 0px;
+    padding: 0px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 15px 0px;
+}
+.btn button{
+    width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+    border:none;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.upper input:hover , .lower input:hover , .number input:hover , .symbol input:hover{
+    cursor: pointer;
+}
